@@ -1,0 +1,45 @@
+1. SELECT * FROM users table
+
+2. SELECT username FROM Users WHERE id=2;
+
+3.| id  |  user_id  | meal_name|
+  _____________________________|
+  |     |            |         |
+  |_____|____________|_________|
+
+  4.  CREATE TABLE Meals(
+
+  		id int AUTO_INCREMENT,
+  		user_id int NOT NULL,
+  		meal_name varchar(45),
+  		PRIMART KEY (id)
+ );
+
+ 5. INSERT INTO Meals (user_id, meal_name) VALUES (1,"fries");
+
+ 6. UPDATE Users SET username="shamoontastic" WHERE id=3;
+
+ 7. DELETE FROM Users WHERE id=4;
+
+ 8. SELECT * FROM Meals INNER JOIN Users ON Meals.user_id=Users.id;
+
+ 9.  _________________________________
+ 	|			   margin	         |
+ 	|	           border            |
+ 	|              padding           |
+ 	|              content            |
+ 	|                                 |
+ 	|                                 |
+ 	|_________________________________|
+
+ 	PHOTO ATTACHED
+
+ 10.  PHOTO ATTACHED
+
+ 11.  Chris Orange
+
+
+ 12. I would write a RPG style game in javascript using firebase to store the data from attacks from the lions, use of special powers by myself to try and get out of the pride of lions, a jump technique to try and jump a wall if there was one that allowed me to escape, meat to toss at the lions to slowly distract them from eating me. If the lions were to get more points on their turn while running and attacking me I would alert that I am dead and will be ressurected to try again. If I escape the lions, the lions will be able to continue about their days, because they are lions, and are wild animals, and you should be no where near lions running wild in the first place. Store the results for returning players as well. Spruce it up with some lion images and CSS, with a warning, DO NOT PLAY WITH LIONS!
+
+
+ 13. ADDED CAT GIPHY!!!!!!!! SET PICTURE IN REPO!
